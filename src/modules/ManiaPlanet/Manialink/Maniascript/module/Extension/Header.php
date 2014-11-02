@@ -22,7 +22,7 @@
 
 namespace Maniaplanet\Manialink\Maniascript\module\Extension;
 
-use Manialink\Maniascript\module\Model\Script;
+use Maniaplanet\Manialink\Maniascript\module\Model\Script;
 use OWeb\OWeb;
 use OWeb\types\extension\Extension;
 use ManiaLib\Manialink\Elements\Manialink;

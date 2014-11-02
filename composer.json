@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ManiaPlanet\\Manialink\\": "src/modules/ManiaPlanet/Manialink/"
+            "Maniaplanet\\Manialink\\": "src/modules"
         }
     }
 }

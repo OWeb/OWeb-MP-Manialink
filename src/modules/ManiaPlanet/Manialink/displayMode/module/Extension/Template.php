@@ -43,13 +43,13 @@ class Template extends AbstractTemplate
     protected function init()
     {
         parent::init();
-        $this->addDependance('Manialink\Maniascript\module\Extension\Header');
+        $this->addDependance('Maniaplanet\Manialink\Maniascript\module\Extension\Header');
     }
 
     protected function ready()
     {
         parent::ready();
-        $this->scripts = OWeb::getInstance()->getManageExtensions()->getExtension('Manialink\Maniascript','Header');
+        $this->scripts = OWeb::getInstance()->getManageExtensions()->getExtension('Maniaplanet\Manialink\Maniascript','Header');
     }
 
     public function prepareDisplay($tmp = 'main')

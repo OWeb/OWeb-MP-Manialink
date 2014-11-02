@@ -40,7 +40,7 @@ abstract class ScriptedController extends \OWeb\types\Controller{
     {
         parent::__construct($primary);
 
-        $this->addDependance('Manialink\Maniascript\module\Extension\Header');
+        $this->addDependance('Maniaplanet\Manialink\Maniascript\module\Extension\Header');
     }
 
     /**
