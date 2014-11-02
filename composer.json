@@ -1,0 +1,22 @@
+{
+    "name": "oliverde8/oweb-mp-manialink",
+    "description": "Adds ManiaPlanet Manialink support to the OWeb Framework",
+    "authors": [
+        {
+            "name": "Oliver de Cramer",
+            "homepage": "http://www.oliverde8.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "oliverde8/oweb-framework": "dev-dev",
+        "maniaplanet/manialib-xml": "dev-master",
+        "maniaplanet/maniaplanet-ws-sdk": "dev-master",
+        "maniaplanet/manialib-manialink": "0.3.*@dev"
+    },
+    "autoload": {
+        "psr-0": {
+            "ManiaPlanet\\Manialink": "src/modules/ManiaPlanet/Manialinks/"
+        }
+    }
+}
