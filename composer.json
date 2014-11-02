@@ -15,8 +15,8 @@
         "maniaplanet/manialib-manialink": "0.3.*@dev"
     },
     "autoload": {
-        "psr-0": {
-            "ManiaPlanet\\Manialink": "src/modules/ManiaPlanet/Manialinks/"
+        "psr-4": {
+            "ManiaPlanet\\Manialink\\": "src/modules/ManiaPlanet/Manialink/"
         }
     }
 }
